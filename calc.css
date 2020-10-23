@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+}
+
+.black {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  height: 87px;
+  width: 400px;
+  font-size: 40px;
+  font-style: normal;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.but, .twobut, .threebut {
+  height: 102px;
+  font-size: 39px;
+  border-color: black;
+  background-color: lightgray;
+}
+
+.but {
+  width: 25%;
+}
+
+.twobut {
+  width: 50%;
+}
+
+.threebut {
+  width: 75%;
+}
+
+.row {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.but:last-child {
+  background-color: #df974c;
+  color: white;
+}
+
+.but:hover, .twobut:hover, .threebut:hover {
+  background-color: #efeded;
+}
+
+.but:last-child:hover {
+  background-color: #deb588;
+}
